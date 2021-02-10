@@ -2,6 +2,9 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.isa.contratocliente">
 
+    <uses-permission android:name="com.example.ejercicioconstraint.READ" />
+    <uses-permission android:name="com.example.ejercicioconstraint.WRITE" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
